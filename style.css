@@ -20,7 +20,7 @@ p{
     color:#506626;
 }
 .header{
-    height:95vh;
+    height:100vh;
     background-image:url(./images/sunflowerHeader.jpg);
     background-size: cover;
     background-position: top;
@@ -45,10 +45,19 @@ body{
 }
 .header-call-action{
     font-family: "IBM Plex Serif", serif;
+    justify-content: center;
+    display: block;
     text-align: center;
     font-size: 46px;
     align-items: center;
-    display:block; 
+    top: 40%;
+    overflow: hidden;
+}
+.header-call-action a{
+    text-decoration: none; 
+    color:#e8ebe3;
+    background-color: black;
+    border-style: double;
 }
 
 .h1{
