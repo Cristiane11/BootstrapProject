@@ -31,11 +31,17 @@ p{
     color:#d4aa04;
 }
 .header >nav a{
-    color:#d4aa04;
+    font-family: "IBM Plex Serif", serif;
+    color:#000;
     font-size: 30px;
     font-weight: 400;
-    font-family: "IBM Plex Serif", serif;
+    
 }
+.header >nav a:hover{
+    color:#FFF;
+    font-size: 16px;
+}
+
 .div-card{
 background-color: #fff;
 }
@@ -61,10 +67,17 @@ body{
 }
 .header-call-action a{
     text-decoration: none; 
+    padding:15px;
     color:#e8ebe3;
     background-color: black;
-    border-style: double;
+    text-align: center;   
 }
+.header-call-action .title{
+    color:#150800;
+    font-size:70px;
+    font-weight:500;
+}
+
 .container,section{
     line-height: 1.6;
     letter-spacing: .15em;
